@@ -7,7 +7,7 @@ Other parameters, such as viscosity, hyperviscous parameters, and length of time
 * domain.nu is the viscosity
 * domain.hv gives the array for hyperviscosity: [k_v,alpha]
 * domain.Lt gives the length of time integration. Note that for periodic orbits this corresponds to a quarter of the period, since they are computed as preperiodic with pi/4 rotation.
-* domain.npu gives the number of timesteps per unit time used in Newton-GMRES.
+* domain.npu gives the number of timesteps per unit of time used in Newton-GMRES.
 # Demo codes
 Currently, three demos are provided. 
 * src/integrationDemo.m -- loads in a snapshot of turbulence saved on a $256\times256$ grid and integrates it on a $512\times512$ grid for 10 time units. Afterwards, it visualizes the trajectory.
