@@ -6,7 +6,7 @@ For single snapshots in time, all of the files are stored as $n \times n \times 
 Other parameters, such as viscosity, hyperviscous parameters, and length of time integration are given inside of the domain object. Namely,
 * domain.nu is the viscosity
 * domain.hv gives the array for hyperviscosity: [k_v,alpha]
-* domain.Lt gives the length of time integration. Note that for periodic orbits this corresponds to a quarter of the period.
+* domain.Lt gives the length of time integration. Note that for periodic orbits this corresponds to a quarter of the period, since they are computed as preperiodic with pi/4 rotation.
 * domain.npu gives the number of timesteps per unit used in Newton-GMRES.
 # Demo codes
 Currently, three demos are provided. 
