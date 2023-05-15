@@ -1,7 +1,7 @@
 # 2D torus
 Welcome to the readme. The goal of this code is to provide demos related to our paper [INSERT CITATION]
 # Data
-All of the files are stored as $n \times n \times 2$ matlab arrays of the velocity fields for snapshots. I.e. for a velocity field u, u(:,:,1) gives the x component of the field, and u(:,:,2) gives the y component. Trajectories of both turbulence and Euler, as output by DNS, are given as $n\times n\times2\times N_t$ arrays for timeseries of length $N_t$.
+For single snapshots in time, all of the files are stored as $n \times n \times 2$ velocity fields. I.e. for a velocity field u, u(:,:,1) gives the x component of the field, and u(:,:,2) gives the y component. Trajectories of both turbulence and Euler, as output by DNS, are given as $n\times n\times2\times N_t$ arrays for timeseries of length $N_t$.
 
 The length of time integration for converged Euler solutions can be given by 4 times domain.Lt
 # Demo codes
