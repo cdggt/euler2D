@@ -14,4 +14,4 @@ Other parameters are stored as elements of the domain object. Namely,
 Currently, three demos are provided. 
 * src/integrationDemo.m -- loads in a snapshot of turbulent flow saved on a $256\times256$ grid and integrates it on a $512\times512$ grid for 10 time units. Afterwards, the trajectory is visualized.
 * src/periodicOrbitConvergeDemo -- loads in a snapshot of turbulent flow saved on a $256\times256$, generate a corresponding initial condition for Newton-GMRES, and then converges it to a pre-periodic solution of the Euler equation.
-* src/equilibriumConvergeDemo -- creates an initial guess for converging an Euler equilibrium and converges it.
+* src/equilibriumConvergeDemo -- Creates an analytic initial guess that is close to an Euler equilibrium for Newton-GMRES, and the converges it to an equilibrium in the Euler equation.
